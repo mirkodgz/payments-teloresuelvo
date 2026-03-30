@@ -7,7 +7,7 @@ export async function POST(req: NextRequest) {
   try {
     const stripe = getStripe();
     const body = await req.json();
-    const description: string = (body?.description ?? "Pagamento FelizViaje").toString();
+    const description: string = (body?.description ?? "Pagamento Te Lo Resuelvo Viajes").toString();
     const amountInput = body?.amount;
     const mode: Mode = body?.mode;
 

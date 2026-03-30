@@ -7,8 +7,8 @@ export default function CanceledPage() {
       <div className="card">
         <div className="logo">
           <Image
-            src="/logo-felizviaje-def-blue.png"
-            alt="FelizViaje"
+            src="/logo.png"
+            alt="Te Lo Resuelvo Viajes"
             width={200}
             height={60}
             priority
