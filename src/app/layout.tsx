@@ -10,6 +10,14 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "Te Lo Resuelvo Viajes",
   description: "Accetta pagamenti online con carta, Klarna e abbonamenti.",
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: {
+      index: false,
+      follow: false,
+    },
+  },
   openGraph: {
     title: "Te Lo Resuelvo Viajes",
     description: "Accetta pagamenti online con carta, Klarna e abbonamenti.",

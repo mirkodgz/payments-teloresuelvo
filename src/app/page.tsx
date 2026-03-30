@@ -64,7 +64,7 @@ export default function Home() {
               type="text"
               value={description}
               onChange={(e) => setDescription(e.target.value)}
-              placeholder="Es. Acconto viaggio Roma"
+              placeholder="Es. Volo A/R Lima - Milano"
               className="input"
             />
           </div>
@@ -80,7 +80,7 @@ export default function Home() {
               min="0"
               value={amount}
               onChange={(e) => setAmount(e.target.value)}
-              placeholder="Es. 299.00"
+              placeholder="Es. 1,200"
               className="input"
             />
           </div>
